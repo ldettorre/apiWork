@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script type="text/javascript" src="apiweather.js"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="apiweather.css" type="text/css" />
+    <style>
+    </style>
 </head>
+
 <body>
-    <div id="data">
-         
+    <div id="titleName">
+        <h2>Weather Box</h2>
     </div>
+<div id="maininfo">
+    <form id="cityForm" onsubmit="submitCity();return false">
+        <input name="city" type="text" placeholder="Enter City" />
+        <br>
+        <input type="submit" id="submit" value="submit" />
+    </form>
+    <br>
+    <div id="data">
+<p> Code saved to leave example of how to link a submit button and text area<br>
+to an api and return information based on the categories. Check css for moving an element of unknown
+size to the center of the screen or to the point you want to move it with margin and transform.</p><br>
+
+
+    </div>
+</div>
 </body>
+
 </html>
